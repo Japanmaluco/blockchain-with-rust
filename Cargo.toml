@@ -5,13 +5,10 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[[bin]]
-name = "rustblockchainlib"
-path = "src/bin/*.rs"
+[lib]
+name = "rustchainlib"
+path = "src/lib.rs"
 
 [dependencies]
-sha2 = "0.10.2"
-ring = "0.16.20"
-data-encoding = "2.3.2"
-rand = "0.8.5"
 crypto-hash = "0.3.4"
+time = "0.1.42"
